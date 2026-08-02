@@ -10,7 +10,7 @@ export default function Footer() {
         <p>포켓몬(Pokémon) 관련 상표 및 저작권은 각 권리자에게 있습니다.</p>
         <p className="pt-1 text-zinc-400">&copy; 2026 부산 메가페스타 정보</p>
       </div>
-      <AdBanner position="bottom" sponsor="쿠팡" />
+      <AdBanner position="bottom" sponsor="쿠팡" tagline="필요한 상품을 최저가로 만나보세요" href="https://www.coupang.com" />
     </footer>
   );
 }

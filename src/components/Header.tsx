@@ -5,7 +5,13 @@ import NavTabs from "./NavTabs";
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 flex w-full flex-col border-b border-black/10 bg-white">
-      <AdBanner position="top" sponsor="알리트랙" href="https://alitrack.kr" logoSrc="/alitrack-logo.png" />
+      <AdBanner
+        position="top"
+        sponsor="알리트랙"
+        tagline="AI 주식 가치분석 · 기술분석 · Market Flow"
+        href="https://alitrack.kr"
+        logoSrc="/alitrack-logo.png"
+      />
       <div className="flex items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-2">
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-accent text-lg text-black">

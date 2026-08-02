@@ -23,7 +23,7 @@ export const CHECKLIST = [
 export const MAP_PAGE: InfoPageData = {
   icon: "🗺️",
   title: "행사 지도",
-  summary: "부산 전역 4개 거점에서 동시에 진행됩니다.",
+  summary: "롯데백화점·지하철 5개 역·광안리·BEXCO 등 부산 전역에서 동시에 진행됩니다.",
   cards: ZONES,
   details: [
     "이번 행사는 한 곳에 모인 단일 행사장이 아니라, 롯데백화점 부산본점·지하철 5개 역·광안리·BEXCO 등 부산 전역에서 동시에 진행되는 도시형 행사입니다.",
