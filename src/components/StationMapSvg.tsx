@@ -15,7 +15,7 @@ const BRANCHES = [
 export default function StationMapSvg() {
   return (
     <div className="px-4">
-      <svg viewBox="0 0 340 480" className="mx-auto w-full max-w-xs" role="img" aria-label="포켓몬 메가페스타 부산 행사 지도 노선도">
+      <svg viewBox="0 0 340 480" className="mx-auto w-full max-w-xs" role="img" aria-label="부산 메가페스타 행사 지도 노선도">
         <line x1={100} y1={40} x2={100} y2={440} stroke="#e5e7eb" strokeWidth={3} />
         {BRANCHES.map((b) => (
           <line key={b.label} x1={b.from.x} y1={b.from.y} x2={b.to.x} y2={b.to.y} stroke="#e5e7eb" strokeWidth={3} />

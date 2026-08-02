@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const SITE_NAME = "2026 포켓몬 메가페스타 부산";
+const SITE_NAME = "2026 부산 메가페스타 정보";
 const SITE_DESCRIPTION =
-  "2026 포켓몬 메가페스타 부산 일정, 지도, 지하철 접근, 스탬프랠리, 팝업스토어, 굿즈, 포토존, 먹거리, 화장실, 주차, FAQ까지 한눈에 확인하는 정보 허브.";
+  "2026년 여름 부산 느긋느긋 바캉스(포켓몬 메가페스타) 일정, 지도, 지하철 접근, 스탬프랠리, 팝업스토어, 굿즈, 포토존, 먹거리, 화장실, 주차, FAQ까지 한눈에 확인하는 비공식 팬 정보 허브.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

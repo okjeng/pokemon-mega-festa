@@ -21,8 +21,8 @@ export default function HomePage() {
     <div className="flex flex-col gap-8 pb-14">
       <PageHero
         icon="⚡"
-        title="2026 포켓몬 메가페스타 부산"
-        description="2026.7.17(금)~8.9(일) · 일정·지도·지하철·굿즈 정보를 가장 빠르게 확인하세요."
+        title="2026 부산 메가페스타 정보"
+        description="2026.7.17(금)~8.9(일) · 부산 느긋느긋 바캉스 일정·지도·지하철·굿즈 정보를 가장 빠르게 확인하세요."
       />
 
       <section className="px-4">
